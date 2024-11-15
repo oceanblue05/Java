@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class subarr {
+public static void main(String[] args) {
+int[] arr = {1,2,3,4};
+int ans=arr[0];
+int maxi=arr[0];
+
+for (int i = 1; i < arr.length; i++) {
+maxi = Math.max(arr[i], maxi + arr[i]);
+ans = Math.max(ans, maxi);
+}
+
+System.out.println("Maximum contiguous subarray sum is " + ans);
+}
+}

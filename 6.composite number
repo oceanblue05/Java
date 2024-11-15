@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+class comp
+{
+public static void main(String[] args) 
+{
+double n=0,a,b,i=0,y=0;
+Scanner x = new Scanner(System.in);
+System.out.println("Enter value of a &b");
+a=x.nextDouble();
+b=x.nextDouble();
+{
+for( i=2;i<(Math.sqrt(n))+1;i++)
+        if (n % i == 0)
+            y=n;
+}
+System.out.println("The numbers are:"+y); 
+}
+}

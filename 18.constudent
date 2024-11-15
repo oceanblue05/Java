@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+class stu 
+{
+	stu()
+	{
+		String name = "unknown";
+		System.out.println("Student name without parameter : " +name);
+	}
+	stu(String name)
+	{
+		System.out.println("Student name with parameter : " +name);
+	}
+}
+class constudent
+{
+	public static void main(String[] args)
+	{
+		stu r = new stu();
+		stu r1 = new stu("samiksha");
+	}
+}

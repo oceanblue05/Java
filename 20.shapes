@@ -1,0 +1,47 @@
+import java.io.*;
+import java.util.*;
+class shape
+ {
+	int l,b,h;
+	shape()
+	{
+		Scanner n = new Scanner(System.in);
+		System.out.println("enter the length , width , height");
+		l = n.nextInt();
+		b = n.nextInt();
+		h = n.nextInt();
+	}
+ }
+class rectangle extends shape
+ {
+	int l = super.l;
+	int b = super.b;
+	int h = super.h;
+	void area()
+	{
+		System.out.println("area of rectangle:" +(l*b));
+		System.out.println("volume of rectangle:" +(l*b*h));
+	} 
+ }
+class cuboid extends rectangle
+ {
+	int l = super.l;
+	int b = super.b;
+	int h = super.h;
+	int ans = l*b + h*l + b*h;
+	void area1()
+	{
+		System.out.println("area of cuboid :  " +(2*ans ));
+		System.out.println("volume of cuboid : " +(l*b*h));
+	} 
+ }
+class shapes
+{
+	public static void main(String[] args)
+	{
+		cuboid c = new cuboid();
+		c.area1();
+		c.area();
+
+	}
+}

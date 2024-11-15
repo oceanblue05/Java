@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class fact
+{
+public static void main(String[] args) 
+{
+int n,a=1,i;
+Scanner x = new Scanner(System.in);
+System.out.println("Enter value of  n:");
+n=x.nextInt();
+for (i=1;i<=n;i++)
+ a=a*i;
+     System.out.println("The factorial is "+a); 
+
+}
+}

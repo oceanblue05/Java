@@ -1,0 +1,22 @@
+import.java.io.*;
+import java.util.*;
+class Amo
+ {
+	int a = 50;
+	Amo()
+	{
+		System.out.println("piggie bank without parameter:" +(a));
+	}
+	Amo(int amount)
+	{
+		System.out.println("piggie bank with parameter:" +(amount+a));
+	}
+ }
+class conamount
+{
+	public static void main(String[] args)
+	{
+		Amo r = new Amo();
+		Amo r1 = new Amo(1000);
+	}
+}

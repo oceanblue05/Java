@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class area
+{
+	area(int l , int b)
+	{
+		System.out.println("area of rectangle : " +(l*b));
+	}
+	area(int s)
+	{
+		System.out.println("area of square : " +(s*s));
+	}
+}
+class conarea
+{
+	public static void main(String[] args)
+	{
+		area r = new area(4,5);
+		area r1 = new area(6);
+	}
+}

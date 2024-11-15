@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class square
+{
+public static void main(String[] args) 
+{
+        double n,a=0;
+        Scanner x = new Scanner(System.in);
+        System.out.println("Enter n  value:");
+        n = x.nextDouble();
+        a=Math.sqrt(n);
+        System.out.println("The square roots are "+"+"+ a+","+"-"+a);
+}
+}

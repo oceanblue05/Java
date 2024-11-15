@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+class perfect
+{
+public static void main(String[] args) 
+{
+int n,a=0,i=0;
+Scanner x = new Scanner(System.in);
+System.out.println("Enter n  value:");
+n = x.nextInt();
+ for (i=1;i<n;i++)
+ { 
+    if(n%i==0)
+      a=a+i;
+  }
+{      
+if (n==a)
+ {
+   System.out.println("It is a perfect number.");
+ }
+else
+ {
+   System.out.println("It is not a perfect number.");
+  }
+ }
+}
+}
+

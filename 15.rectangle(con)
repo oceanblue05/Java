@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+class rect
+{
+	rect()
+	{
+		int l=0;
+		int b=0;
+		System.out.println("area of rectangle without parameter:" +(l*b));
+	}
+	rect(int l ,int b)
+	{
+		System.out.println("area of rectangle with 2 parameter:" +(l*b));
+	}
+	rect(int s)
+	{
+		System.out.println("area of rectangle with one parameter:" +(s*s));
+	}
+}
+class conrect
+{
+	public static void main(String[] args)
+	{
+		rect r = new rect();
+		rect r1 = new rect(5);
+		rect r2 = new rect(4,5);
+	}
+}

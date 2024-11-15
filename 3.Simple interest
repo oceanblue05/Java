@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.Scanner;
+class si
+{
+public static void main(String[] args)
+{
+float p,s;
+int n,a;
+Scanner x=new Scanner(System.in);
+System.out.println("enter Principal amount,No of years,Age:");
+p=x.nextFloat();
+n=x.nextInt();
+a=x.nextInt();
+if (a>60)
+ s=p*n*12/100;
+else
+ s=p*n*10/100;
+System.out.println("The Simple interest is:"+s);
+}
+}
+

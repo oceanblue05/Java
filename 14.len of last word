@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class length 
+{
+    public static void main(String[] args) 
+    {
+        String s = "Hello World";
+        s = s.trim();
+        String[] w = s.split("\\s+");
+        String last = w[w.length - 1];
+        int len = last.length();
+        System.out.println(len); 
+    }
+}
